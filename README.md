@@ -8,24 +8,35 @@
 <div align="left">
 
  <a href="https://github.com/victoralecrim11"/>
- <img height=180em src="https://github-readme-stats.vercel.app/api?username=victoralecrim11&show_icons=true&theme=dracula" />
- <img height=180em src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=victoralecrim11&layout=compact&langs_count=7&theme=tokyonight" />
+
+
+| Estatísticas do GitHub | Linguagens mais usadas: |
+|---|---|
+| <img height="180" src="https://github-readme-stats.vercel.app/api?username=victoralecrim11&show_icons=true&theme=dracula" /> | <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=victoralecrim11&layout=compact&langs_count=7&theme=tokyonight" /> |
 
 </div>
 
+
+<br>
 <div style="display: inline_block"><br>
   <img align="center" alt="victoralecrim11-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="victoralecrim11-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="victoralecrim11-JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="victoralecrim11-ReactJS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
   <img align="center" alt="victoralecrim11-nodeJS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"  />
+          
   <img align="center" alt="victoralecrim11-SASS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg">
   <img align="center" alt="victoralecrim11-Bootstrap" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
   <img align="center" alt="victoralecrim11-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
-  <img align="center" alt="victoralecrim-Java"  height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
-  <img align="center" alt="victoralecrim11-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+
+  <img align="center" alt="victoralecrim11-Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+  
+  <img align="center" alt="victoralecrim11-Java"  height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
+  
+ <img align="center" alt="victoralecrim11-MySql" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
           
-<div/>
+          
+ </div>
   
 <br>
 <br>
