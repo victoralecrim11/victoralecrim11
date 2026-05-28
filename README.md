@@ -10,12 +10,10 @@
 <div align="center">
   <h3>📊 Estatísticas GitHub</h3>
 
-  <a href="https://github.com/victoralecrim11">
-    <img height="180em" alt="Estatísticas do GitHub de Victor Alecrim" src="https://github-readme-stats.vercel.app/api?username=victoralecrim11&show_icons=true&theme=github_dark&hide_border=false" />
-  </a>
-  <a href="https://github.com/victoralecrim11">
-    <img height="180em" alt="Linguagens mais usadas por Victor Alecrim" src="https://github-readme-stats.vercel.app/api/top-langs/?username=victoralecrim11&layout=compact&langs_count=7&theme=github_dark&hide_border=false" />
-  </a>
+  <img width="700" alt="Resumo do perfil GitHub de Victor Alecrim" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=victoralecrim11&theme=github_dark" />
+  <br><br>
+  <img width="345" alt="Linguagens mais usadas por Victor Alecrim" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=victoralecrim11&theme=github_dark" />
+  <img width="345" alt="Sequência de contribuições de Victor Alecrim" src="https://streak-stats.demolab.com?user=victoralecrim11&theme=github-dark-blue&hide_border=false&locale=pt_BR" />
 </div>
 
 ---
