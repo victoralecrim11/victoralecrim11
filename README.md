@@ -14,7 +14,6 @@
   <h3>📊 Estatísticas GitHub</h3>
   
   <a href="https://github.com/victoralecrim11">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=victoralecrim11&show_icons=true&theme=dracula"/>
     <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=victoralecrim11&layout=compact&langs_count=7&bg_color=0d1117&title_color=ffffff&text_color=c9d1d9&icon_color=79ff97&border_color=444c56"/>
   </a>
 
