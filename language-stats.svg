@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240">
+  <rect width="480" height="240" rx="14" fill="#282a36"/>
+  <text x="240" y="24" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="13" font-weight="bold" fill="#f8f8f2">📊 Most Used Languages</text>
+  <path d="M 120.00 32.00 A 88 88 0 0 1 207.83 125.53 L 173.89 123.39 A 54 54 0 0 0 120.00 66.00 Z" fill="#ff79c6" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 207.83 125.53 A 88 88 0 0 1 147.19 203.69 L 136.69 171.36 A 54 54 0 0 0 173.89 123.39 Z" fill="#bd93f9" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 147.19 203.69 A 88 88 0 0 1 59.76 184.15 L 83.03 159.36 A 54 54 0 0 0 136.69 171.36 Z" fill="#f1fa8c" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 59.76 184.15 A 88 88 0 0 1 32.69 131.03 L 66.43 126.77 A 54 54 0 0 0 83.03 159.36 Z" fill="#8be9fd" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 32.69 131.03 A 88 88 0 0 1 42.89 77.61 L 72.68 93.99 A 54 54 0 0 0 66.43 126.77 Z" fill="#ffb86c" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 42.89 77.61 A 88 88 0 0 1 72.85 45.70 L 91.07 74.41 A 54 54 0 0 0 72.68 93.99 Z" fill="#50fa7b" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 72.85 45.70 A 88 88 0 0 1 103.51 33.56 L 109.88 66.96 A 54 54 0 0 0 91.07 74.41 Z" fill="#ff5555" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 103.51 33.56 A 88 88 0 0 1 120.00 32.00 L 120.00 66.00 A 54 54 0 0 0 109.88 66.96 Z" fill="#6272a4" stroke="#282a36" stroke-width="2.5"/>
+  <text x="120" y="116" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="10" fill="#f8f8f2">Top</text>
+  <text x="120" y="130" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="10" fill="#f8f8f2">Languages</text>
+  <rect x="230" y="36" width="12" height="12" rx="3" fill="#ff79c6"/>
+  <text x="248" y="46" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">C#</text>
+  <text x="464" y="46" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">26.0%</text>
+  <rect x="230" y="60" width="12" height="12" rx="3" fill="#bd93f9"/>
+  <text x="248" y="70" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">PHP</text>
+  <text x="464" y="70" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">19.0%</text>
+  <rect x="230" y="84" width="12" height="12" rx="3" fill="#f1fa8c"/>
+  <text x="248" y="94" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">JavaScript</text>
+  <text x="464" y="94" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">17.0%</text>
+  <rect x="230" y="108" width="12" height="12" rx="3" fill="#8be9fd"/>
+  <text x="248" y="118" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">CSS</text>
+  <text x="464" y="118" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">11.0%</text>
+  <rect x="230" y="132" width="12" height="12" rx="3" fill="#ffb86c"/>
+  <text x="248" y="142" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">Java</text>
+  <text x="464" y="142" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">10.0%</text>
+  <rect x="230" y="156" width="12" height="12" rx="3" fill="#50fa7b"/>
+  <text x="248" y="166" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">Python</text>
+  <text x="464" y="166" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">8.0%</text>
+  <rect x="230" y="180" width="12" height="12" rx="3" fill="#ff5555"/>
+  <text x="248" y="190" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">TypeScript</text>
+  <text x="464" y="190" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">6.0%</text>
+  <rect x="230" y="204" width="12" height="12" rx="3" fill="#6272a4"/>
+  <text x="248" y="214" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">Others</text>
+  <text x="464" y="214" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">3.0%</text>
+</svg>
