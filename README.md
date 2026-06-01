@@ -1,9 +1,10 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=bd93f9&height=120&section=header&text=Victor%20Alecrim&fontSize=36&fontColor=f8f8f2&fontAlignY=38&desc=Computer%20Science%20%7C%20Full-Stack%20Developer&descAlignY=58&descSize=14" />
+
 ## Olá! Meu nome é Victor Alecrim
 
-- 🎓 Estudante de Ciência da Computação - 4º Período
-- 💻 Apaixonado por desenvolvimento web e entusiasta de tecnologia
-- 🎯 Objetivo: me tornar um desenvolvedor full-stack experiente
-- 📩 Email: victorcarmoalecrim@gmail.com
+Desenvolvedor em formação e estudante de Ciência da Computação (5º período), com interesse em desenvolvimento web, engenharia de software e arquitetura de sistemas. Busco constantemente aprimorar minhas habilidades técnicas e contribuir com soluções eficientes e de qualidade.
+
+📫 victorcarmoalecrim@gmail.com
 
 ---
 
