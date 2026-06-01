@@ -121,7 +121,6 @@ function renderSvg({ rows, repoCount, totalBytes }) {
   const cy = 232;
   const outerRadius = 118;
   const innerRadius = 68;
-  const now = new Date().toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" });
 
   let angle = 0;
   const segments = rows.map((row) => {
@@ -187,7 +186,6 @@ function renderSvg({ rows, repoCount, totalBytes }) {
     <text x="0" y="31" class="stat">${formatBytes(totalBytes)}</text>
     <text x="215" y="0" class="label">Repos</text>
     <text x="215" y="31" class="stat">${repoCount}</text>
-    <text x="0" y="58" class="subtitle">Atualizado em ${now} • sem Vercel API</text>
   </g>
 ${legend}
 </svg>

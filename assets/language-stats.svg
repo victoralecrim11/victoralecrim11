@@ -49,7 +49,6 @@
     <text x="0" y="31" class="stat">17.1 MB</text>
     <text x="215" y="0" class="label">Repos</text>
     <text x="215" y="31" class="stat">47</text>
-    <text x="0" y="58" class="subtitle">Atualizado em 31/05/2026 • sem Vercel API</text>
   </g>
 
     <g transform="translate(440, 126)">

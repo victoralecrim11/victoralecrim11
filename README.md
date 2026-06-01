@@ -8,11 +8,10 @@
 ---
 
 <div align="center">
-  <h3>📊 Indicadores de linguagens</h3>
+  <h3>📊 Estatísticas GitHub</h3>
 
-  <img width="780" alt="Gráfico de pizza com linguagens mais usadas por Victor Alecrim" src="./assets/language-stats.svg" />
+  <img width="700" alt="Gráfico de pizza com linguagens mais usadas por Victor Alecrim" src="./assets/language-stats.svg" />
 </div>
-
 
 ---
 
