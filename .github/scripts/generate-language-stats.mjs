@@ -116,9 +116,9 @@ function summarizeLanguages(totals) {
 
 function renderSvg({ rows, repoCount, totalBytes }) {
   const width = 780;
-  const height = 430;
+  const height = 390;
   const cx = 210;
-  const cy = 232;
+  const cy = 218;
   const outerRadius = 118;
   const innerRadius = 68;
 
@@ -138,14 +138,13 @@ function renderSvg({ rows, repoCount, totalBytes }) {
       <circle cx="0" cy="-4" r="5" fill="${row.color}" />
       <text x="18" y="0" class="legend">${escapeXml(row.name)}</text>
       <text x="190" y="0" class="value">${row.percent.toFixed(2)}%</text>
-      <text x="250" y="0" class="muted">${formatBytes(row.bytes)}</text>
     </g>`;
     })
     .join("");
 
   return `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Linguagens mais usadas por Victor Alecrim</title>
-  <desc id="desc">Gráfico com porcentagens de linguagens calculadas a partir dos repositórios públicos.</desc>
+  <desc id="desc">Linguagens mais usadas por Victor Alecrim.</desc>
   <defs>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#010409" flood-opacity="0.45" />
@@ -159,19 +158,14 @@ function renderSvg({ rows, repoCount, totalBytes }) {
     .card { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
     .panel { fill: #161b22; stroke: #30363d; stroke-width: 1; }
     .title { fill: #58a6ff; font: 800 28px Segoe UI, Ubuntu, Arial, sans-serif; }
-    .subtitle { fill: #8b949e; font: 500 13px Segoe UI, Ubuntu, Arial, sans-serif; }
-    .stat { fill: #f0f6fc; font: 800 24px Segoe UI, Ubuntu, Arial, sans-serif; }
-    .label { fill: #8b949e; font: 500 12px Segoe UI, Ubuntu, Arial, sans-serif; }
     .legend { fill: #c9d1d9; font: 600 14px Segoe UI, Ubuntu, Arial, sans-serif; }
     .value { fill: #f0f6fc; font: 700 14px Segoe UI, Ubuntu, Arial, sans-serif; text-anchor: end; }
-    .muted { fill: #8b949e; font: 500 12px Segoe UI, Ubuntu, Arial, sans-serif; }
     .centerPercent { fill: #f0f6fc; font: 800 28px Segoe UI, Ubuntu, Arial, sans-serif; text-anchor: middle; }
     .centerLabel { fill: #8b949e; font: 700 13px Segoe UI, Ubuntu, Arial, sans-serif; text-anchor: middle; }
   </style>
   <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="14" class="card" />
-  <rect x="24" y="24" width="732" height="382" rx="12" class="panel" />
+  <rect x="24" y="24" width="732" height="342" rx="12" class="panel" />
   <text x="48" y="66" class="title">Most Used Languages</text>
-  <text x="48" y="93" class="subtitle">Gráfico de pizza com percentuais dos repositórios públicos</text>
 
   <g filter="url(#shadow)">
     <circle cx="${cx}" cy="${cy}" r="${outerRadius + 10}" fill="url(#centerGlow)" />
@@ -180,13 +174,6 @@ function renderSvg({ rows, repoCount, totalBytes }) {
   </g>
   <text x="${cx}" y="${cy - 6}" class="centerPercent">${rows[0]?.percent.toFixed(2) || "0.00"}%</text>
   <text x="${cx}" y="${cy + 21}" class="centerLabel">${escapeXml(rows[0]?.name || "Sem dados")}</text>
-
-  <g transform="translate(440, 62)">
-    <text x="0" y="0" class="label">Total analisado</text>
-    <text x="0" y="31" class="stat">${formatBytes(totalBytes)}</text>
-    <text x="215" y="0" class="label">Repos</text>
-    <text x="215" y="31" class="stat">${repoCount}</text>
-  </g>
 ${legend}
 </svg>
 `;

@@ -1,6 +1,6 @@
-<svg width="780" height="430" viewBox="0 0 780 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="780" height="390" viewBox="0 0 780 390" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Linguagens mais usadas por Victor Alecrim</title>
-  <desc id="desc">Gráfico com porcentagens de linguagens calculadas a partir dos repositórios públicos.</desc>
+  <desc id="desc">Linguagens mais usadas por Victor Alecrim.</desc>
   <defs>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#010409" flood-opacity="0.45" />
@@ -14,95 +14,74 @@
     .card { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
     .panel { fill: #161b22; stroke: #30363d; stroke-width: 1; }
     .title { fill: #58a6ff; font: 800 28px Segoe UI, Ubuntu, Arial, sans-serif; }
-    .subtitle { fill: #8b949e; font: 500 13px Segoe UI, Ubuntu, Arial, sans-serif; }
-    .stat { fill: #f0f6fc; font: 800 24px Segoe UI, Ubuntu, Arial, sans-serif; }
-    .label { fill: #8b949e; font: 500 12px Segoe UI, Ubuntu, Arial, sans-serif; }
     .legend { fill: #c9d1d9; font: 600 14px Segoe UI, Ubuntu, Arial, sans-serif; }
     .value { fill: #f0f6fc; font: 700 14px Segoe UI, Ubuntu, Arial, sans-serif; text-anchor: end; }
-    .muted { fill: #8b949e; font: 500 12px Segoe UI, Ubuntu, Arial, sans-serif; }
     .centerPercent { fill: #f0f6fc; font: 800 28px Segoe UI, Ubuntu, Arial, sans-serif; text-anchor: middle; }
     .centerLabel { fill: #8b949e; font: 700 13px Segoe UI, Ubuntu, Arial, sans-serif; text-anchor: middle; }
   </style>
-  <rect x="0.5" y="0.5" width="779" height="429" rx="14" class="card" />
-  <rect x="24" y="24" width="732" height="382" rx="12" class="panel" />
+  <rect x="0.5" y="0.5" width="779" height="389" rx="14" class="card" />
+  <rect x="24" y="24" width="732" height="342" rx="12" class="panel" />
   <text x="48" y="66" class="title">Most Used Languages</text>
-  <text x="48" y="93" class="subtitle">Gráfico de pizza com percentuais dos repositórios públicos</text>
 
   <g filter="url(#shadow)">
-    <circle cx="210" cy="232" r="128" fill="url(#centerGlow)" />
-    <path d="M 121.24 154.24 A 118 118 0 1 0 210.00 114.00 L 210.00 164.00 A 68 68 0 1 1 158.85 187.19 Z" fill="#3572A5" stroke="#0d1117" stroke-width="3" />
-    <path d="M 135.30 140.66 A 118 118 0 0 0 121.24 154.24 L 158.85 187.19 A 68 68 0 0 1 166.95 179.36 Z" fill="#F1E05A" stroke="#0d1117" stroke-width="3" />
-    <path d="M 150.25 130.24 A 118 118 0 0 0 135.30 140.66 L 166.95 179.36 A 68 68 0 0 1 175.57 173.36 Z" fill="#E34C26" stroke="#0d1117" stroke-width="3" />
-    <path d="M 164.98 122.93 A 118 118 0 0 0 150.25 130.24 L 175.57 173.36 A 68 68 0 0 1 184.06 169.14 Z" fill="#178600" stroke="#0d1117" stroke-width="3" />
-    <path d="M 180.51 117.74 A 118 118 0 0 0 164.98 122.93 L 184.06 169.14 A 68 68 0 0 1 193.01 166.16 Z" fill="#4F5D95" stroke="#0d1117" stroke-width="3" />
-    <path d="M 193.15 115.21 A 118 118 0 0 0 180.51 117.74 L 193.01 166.16 A 68 68 0 0 1 200.29 164.70 Z" fill="#663399" stroke="#0d1117" stroke-width="3" />
-    <path d="M 201.56 114.30 A 118 118 0 0 0 193.15 115.21 L 200.29 164.70 A 68 68 0 0 1 205.13 164.17 Z" fill="#B07219" stroke="#0d1117" stroke-width="3" />
-    <path d="M 205.18 114.10 A 118 118 0 0 0 201.56 114.30 L 205.13 164.17 A 68 68 0 0 1 207.22 164.06 Z" fill="#3178C6" stroke="#0d1117" stroke-width="3" />
-    <path d="M 209.93 114.00 A 118 118 0 0 0 205.18 114.10 L 207.22 164.06 A 68 68 0 0 1 209.96 164.00 Z" fill="#8B949E" stroke="#0d1117" stroke-width="3" />
-    <circle cx="210" cy="232" r="63" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+    <circle cx="210" cy="218" r="128" fill="url(#centerGlow)" />
+    <path d="M 121.24 140.24 A 118 118 0 1 0 210.00 100.00 L 210.00 150.00 A 68 68 0 1 1 158.85 173.19 Z" fill="#3572A5" stroke="#0d1117" stroke-width="3" />
+    <path d="M 135.30 126.66 A 118 118 0 0 0 121.24 140.24 L 158.85 173.19 A 68 68 0 0 1 166.95 165.36 Z" fill="#F1E05A" stroke="#0d1117" stroke-width="3" />
+    <path d="M 150.25 116.24 A 118 118 0 0 0 135.30 126.66 L 166.95 165.36 A 68 68 0 0 1 175.57 159.36 Z" fill="#E34C26" stroke="#0d1117" stroke-width="3" />
+    <path d="M 164.98 108.93 A 118 118 0 0 0 150.25 116.24 L 175.57 159.36 A 68 68 0 0 1 184.06 155.14 Z" fill="#178600" stroke="#0d1117" stroke-width="3" />
+    <path d="M 180.51 103.74 A 118 118 0 0 0 164.98 108.93 L 184.06 155.14 A 68 68 0 0 1 193.01 152.16 Z" fill="#4F5D95" stroke="#0d1117" stroke-width="3" />
+    <path d="M 193.15 101.21 A 118 118 0 0 0 180.51 103.74 L 193.01 152.16 A 68 68 0 0 1 200.29 150.70 Z" fill="#663399" stroke="#0d1117" stroke-width="3" />
+    <path d="M 201.56 100.30 A 118 118 0 0 0 193.15 101.21 L 200.29 150.70 A 68 68 0 0 1 205.13 150.17 Z" fill="#B07219" stroke="#0d1117" stroke-width="3" />
+    <path d="M 205.18 100.10 A 118 118 0 0 0 201.56 100.30 L 205.13 150.17 A 68 68 0 0 1 207.22 150.06 Z" fill="#3178C6" stroke="#0d1117" stroke-width="3" />
+    <path d="M 209.93 100.00 A 118 118 0 0 0 205.18 100.10 L 207.22 150.06 A 68 68 0 0 1 209.96 150.00 Z" fill="#8B949E" stroke="#0d1117" stroke-width="3" />
+    <circle cx="210" cy="218" r="63" fill="#0d1117" stroke="#30363d" stroke-width="1" />
   </g>
-  <text x="210" y="226" class="centerPercent">86.45%</text>
-  <text x="210" y="253" class="centerLabel">Python</text>
-
-  <g transform="translate(440, 62)">
-    <text x="0" y="0" class="label">Total analisado</text>
-    <text x="0" y="31" class="stat">17.1 MB</text>
-    <text x="215" y="0" class="label">Repos</text>
-    <text x="215" y="31" class="stat">47</text>
-  </g>
+  <text x="210" y="212" class="centerPercent">86.45%</text>
+  <text x="210" y="239" class="centerLabel">Python</text>
 
     <g transform="translate(440, 126)">
       <circle cx="0" cy="-4" r="5" fill="#3572A5" />
       <text x="18" y="0" class="legend">Python</text>
       <text x="190" y="0" class="value">86.45%</text>
-      <text x="250" y="0" class="muted">14.8 MB</text>
     </g>
     <g transform="translate(440, 157)">
       <circle cx="0" cy="-4" r="5" fill="#F1E05A" />
       <text x="18" y="0" class="legend">JavaScript</text>
       <text x="190" y="0" class="value">2.64%</text>
-      <text x="250" y="0" class="muted">450.1 KB</text>
     </g>
     <g transform="translate(440, 188)">
       <circle cx="0" cy="-4" r="5" fill="#E34C26" />
       <text x="18" y="0" class="legend">HTML</text>
       <text x="190" y="0" class="value">2.46%</text>
-      <text x="250" y="0" class="muted">420.5 KB</text>
     </g>
     <g transform="translate(440, 219)">
       <circle cx="0" cy="-4" r="5" fill="#178600" />
       <text x="18" y="0" class="legend">C#</text>
       <text x="190" y="0" class="value">2.22%</text>
-      <text x="250" y="0" class="muted">378.9 KB</text>
     </g>
     <g transform="translate(440, 250)">
       <circle cx="0" cy="-4" r="5" fill="#4F5D95" />
       <text x="18" y="0" class="legend">PHP</text>
       <text x="190" y="0" class="value">2.21%</text>
-      <text x="250" y="0" class="muted">376.6 KB</text>
     </g>
     <g transform="translate(440, 281)">
       <circle cx="0" cy="-4" r="5" fill="#663399" />
       <text x="18" y="0" class="legend">CSS</text>
       <text x="190" y="0" class="value">1.74%</text>
-      <text x="250" y="0" class="muted">297.8 KB</text>
     </g>
     <g transform="translate(440, 312)">
       <circle cx="0" cy="-4" r="5" fill="#B07219" />
       <text x="18" y="0" class="legend">Java</text>
       <text x="190" y="0" class="value">1.14%</text>
-      <text x="250" y="0" class="muted">194.8 KB</text>
     </g>
     <g transform="translate(440, 343)">
       <circle cx="0" cy="-4" r="5" fill="#3178C6" />
       <text x="18" y="0" class="legend">TypeScript</text>
       <text x="190" y="0" class="value">0.49%</text>
-      <text x="250" y="0" class="muted">84.4 KB</text>
     </g>
     <g transform="translate(440, 374)">
       <circle cx="0" cy="-4" r="5" fill="#8B949E" />
       <text x="18" y="0" class="legend">Outras</text>
       <text x="190" y="0" class="value">0.64%</text>
-      <text x="250" y="0" class="muted">109.8 KB</text>
     </g>
 </svg>
