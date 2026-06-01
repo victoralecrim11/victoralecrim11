@@ -9,9 +9,23 @@
 
 <div align="center">
   <h3>📊 Estatísticas GitHub</h3>
-
-  <img width="700" alt="Gráfico de pizza com linguagens mais usadas por Victor Alecrim" src="./assets/language-stats.svg" />
+  <div align="center">
+  <!-- Animated contribution area chart — updated daily by GitHub Actions -->
+  <img
+    src="./assets/contrib-stats.svg"
+    alt="Contribution activity chart"
+    width="720"
+  />
 </div>
+<br/>
+<div align="center">
+  <!-- Language donut chart — updated daily by GitHub Actions -->
+  <img
+    src="./assets/language-stats.svg"
+    alt="Language statistics"
+    width="480"
+  />
+
 
 ---
 
