@@ -1,116 +1,38 @@
-<svg width="700" height="340" viewBox="0 0 700 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Linguagens mais usadas por Victor Alecrim</title>
-  <desc id="desc">Linguagens mais usadas por Victor Alecrim.</desc>
-  <defs>
-    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#88a51e" stop-opacity="0.92" />
-      <stop offset="100%" stop-color="#88a51e" stop-opacity="0.18" />
-    </linearGradient>
-  </defs>
-  <style>
-    .bg { fill: #fff9e8; }
-    .card { fill: #fff3d7; stroke: #f0dfb5; stroke-width: 1; }
-    .title { fill: #2483ff; font: 700 18px Segoe UI, Ubuntu, Arial, sans-serif; }
-    .name { fill: #2483ff; font: 700 18px Segoe UI, Ubuntu, Arial, sans-serif; }
-    .text { fill: #7d6a3a; font: 600 13px Segoe UI, Ubuntu, Arial, sans-serif; }
-    .small { fill: #7d6a3a; font: 600 10px Segoe UI, Ubuntu, Arial, sans-serif; }
-    .smallValue { fill: #3b3320; font: 700 10px Segoe UI, Ubuntu, Arial, sans-serif; text-anchor: end; }
-    .axis { fill: #a28c56; font: 500 9px Segoe UI, Ubuntu, Arial, sans-serif; }
-  </style>
-  <rect width="700" height="340" rx="16" class="bg" />
-
-  <rect x="32" y="24" width="636" height="132" rx="14" class="card" />
-  <text x="58" y="56" class="name">Victor Alecrim</text>
-  <text x="58" y="82" class="text">🎓 Ciência da Computação</text>
-  <text x="58" y="106" class="text">💻 Desenvolvimento full-stack</text>
-  <text x="58" y="130" class="text">🎯 Web, APIs e tecnologia</text>
-
-  <path d="M 326 129 L 326 117 C 352 101, 369 117, 388 106 C 414 92, 426 48, 452 72 C 471 89, 485 121, 505 91 C 525 61, 536 43, 555 72 C 570 95, 584 106, 606 69 C 624 41, 646 86, 646 129 Z" fill="url(#area)" />
-  <polyline points="326,117 352,104 369,117 388,106 414,92 426,48 452,72 471,89 485,121 505,91 525,61 536,43 555,72 570,95 584,106 606,69 624,41 646,86" fill="none" stroke="#88a51e" stroke-width="3" />
-  <line x1="326" y1="129" x2="646" y2="129" stroke="#d6c490" />
-  <text x="326" y="145" class="axis">2024</text>
-  <text x="473" y="145" class="axis">2025</text>
-  <text x="622" y="145" class="axis">2026</text>
-
-  <rect x="32" y="172" width="300" height="144" rx="14" class="card" />
-  <text x="58" y="202" class="title">Repos per Language</text>
-  <g transform="translate(242, 238)">
-      <path d="M 41.81 4.01 A 42 42 0 0 0 0.00 -42.00 L 0.00 -23.00 A 23 23 0 0 1 22.90 2.19 Z" fill="#178600" stroke="#fff6df" stroke-width="3" />
-      <path d="M 10.78 40.59 A 42 42 0 0 0 41.81 4.01 L 22.90 2.19 A 23 23 0 0 1 5.90 22.23 Z" fill="#4F5D95" stroke="#fff6df" stroke-width="3" />
-      <path d="M -30.14 29.25 A 42 42 0 0 0 10.78 40.59 L 5.90 22.23 A 23 23 0 0 1 -16.51 16.02 Z" fill="#F1E05A" stroke="#fff6df" stroke-width="3" />
-      <path d="M -41.78 4.27 A 42 42 0 0 0 -30.14 29.25 L -16.51 16.02 A 23 23 0 0 1 -22.88 2.34 Z" fill="#663399" stroke="#fff6df" stroke-width="3" />
-      <path d="M -36.79 -20.26 A 42 42 0 0 0 -41.78 4.27 L -22.88 2.34 A 23 23 0 0 1 -20.15 -11.09 Z" fill="#B07219" stroke="#fff6df" stroke-width="3" />
-      <path d="M -23.34 -34.91 A 42 42 0 0 0 -36.79 -20.26 L -20.15 -11.09 A 23 23 0 0 1 -12.78 -19.12 Z" fill="#E34C26" stroke="#fff6df" stroke-width="3" />
-      <path d="M -12.83 -39.99 A 42 42 0 0 0 -23.34 -34.91 L -12.78 -19.12 A 23 23 0 0 1 -7.02 -21.90 Z" fill="#3178C6" stroke="#fff6df" stroke-width="3" />
-      <path d="M -7.69 -41.29 A 42 42 0 0 0 -12.83 -39.99 L -7.02 -21.90 A 23 23 0 0 1 -4.21 -22.61 Z" fill="#3572A5" stroke="#fff6df" stroke-width="3" />
-      <path d="M 0.03 -42.00 A 42 42 0 0 0 -7.69 -41.29 L -4.21 -22.61 A 23 23 0 0 1 0.01 -23.00 Z" fill="#8B949E" stroke="#fff6df" stroke-width="3" />
-      <circle cx="0" cy="0" r="21" fill="#fff3d7" />
-  </g>
-
-      <g transform="translate(82, 238)">
-        <rect x="0" y="-8" width="9" height="9" rx="2" fill="#178600" />
-        <text x="15" y="0" class="small">C#</text>
-        <text x="132" y="0" class="smallValue">26.52%</text>
-      </g>
-      <g transform="translate(82, 255)">
-        <rect x="0" y="-8" width="9" height="9" rx="2" fill="#4F5D95" />
-        <text x="15" y="0" class="small">PHP</text>
-        <text x="132" y="0" class="smallValue">19.35%</text>
-      </g>
-      <g transform="translate(82, 272)">
-        <rect x="0" y="-8" width="9" height="9" rx="2" fill="#F1E05A" />
-        <text x="15" y="0" class="small">JavaScript</text>
-        <text x="132" y="0" class="smallValue">16.87%</text>
-      </g>
-      <g transform="translate(82, 289)">
-        <rect x="0" y="-8" width="9" height="9" rx="2" fill="#663399" />
-        <text x="15" y="0" class="small">CSS</text>
-        <text x="132" y="0" class="smallValue">10.64%</text>
-      </g>
-      <g transform="translate(82, 306)">
-        <rect x="0" y="-8" width="9" height="9" rx="2" fill="#B07219" />
-        <text x="15" y="0" class="small">Java</text>
-        <text x="132" y="0" class="smallValue">9.63%</text>
-      </g>
-
-  <rect x="368" y="172" width="300" height="144" rx="14" class="card" />
-  <text x="394" y="202" class="title">Most Used Languages</text>
-  <g transform="translate(554, 238)">
-      <path d="M 41.81 4.01 A 42 42 0 0 0 0.00 -42.00 L 0.00 -23.00 A 23 23 0 0 1 22.90 2.19 Z" fill="#178600" stroke="#fff6df" stroke-width="3" />
-      <path d="M 10.78 40.59 A 42 42 0 0 0 41.81 4.01 L 22.90 2.19 A 23 23 0 0 1 5.90 22.23 Z" fill="#4F5D95" stroke="#fff6df" stroke-width="3" />
-      <path d="M -30.14 29.25 A 42 42 0 0 0 10.78 40.59 L 5.90 22.23 A 23 23 0 0 1 -16.51 16.02 Z" fill="#F1E05A" stroke="#fff6df" stroke-width="3" />
-      <path d="M -41.78 4.27 A 42 42 0 0 0 -30.14 29.25 L -16.51 16.02 A 23 23 0 0 1 -22.88 2.34 Z" fill="#663399" stroke="#fff6df" stroke-width="3" />
-      <path d="M -36.79 -20.26 A 42 42 0 0 0 -41.78 4.27 L -22.88 2.34 A 23 23 0 0 1 -20.15 -11.09 Z" fill="#B07219" stroke="#fff6df" stroke-width="3" />
-      <path d="M -23.34 -34.91 A 42 42 0 0 0 -36.79 -20.26 L -20.15 -11.09 A 23 23 0 0 1 -12.78 -19.12 Z" fill="#E34C26" stroke="#fff6df" stroke-width="3" />
-      <path d="M -12.83 -39.99 A 42 42 0 0 0 -23.34 -34.91 L -12.78 -19.12 A 23 23 0 0 1 -7.02 -21.90 Z" fill="#3178C6" stroke="#fff6df" stroke-width="3" />
-      <path d="M -7.69 -41.29 A 42 42 0 0 0 -12.83 -39.99 L -7.02 -21.90 A 23 23 0 0 1 -4.21 -22.61 Z" fill="#3572A5" stroke="#fff6df" stroke-width="3" />
-      <path d="M 0.03 -42.00 A 42 42 0 0 0 -7.69 -41.29 L -4.21 -22.61 A 23 23 0 0 1 0.01 -23.00 Z" fill="#8B949E" stroke="#fff6df" stroke-width="3" />
-      <circle cx="0" cy="0" r="21" fill="#fff3d7" />
-  </g>
-
-      <g transform="translate(393, 238)">
-        <rect x="0" y="-8" width="9" height="9" rx="2" fill="#178600" />
-        <text x="15" y="0" class="small">C#</text>
-        <text x="132" y="0" class="smallValue">26.52%</text>
-      </g>
-      <g transform="translate(393, 255)">
-        <rect x="0" y="-8" width="9" height="9" rx="2" fill="#4F5D95" />
-        <text x="15" y="0" class="small">PHP</text>
-        <text x="132" y="0" class="smallValue">19.35%</text>
-      </g>
-      <g transform="translate(393, 272)">
-        <rect x="0" y="-8" width="9" height="9" rx="2" fill="#F1E05A" />
-        <text x="15" y="0" class="small">JavaScript</text>
-        <text x="132" y="0" class="smallValue">16.87%</text>
-      </g>
-      <g transform="translate(393, 289)">
-        <rect x="0" y="-8" width="9" height="9" rx="2" fill="#663399" />
-        <text x="15" y="0" class="small">CSS</text>
-        <text x="132" y="0" class="smallValue">10.64%</text>
-      </g>
-      <g transform="translate(393, 306)">
-        <rect x="0" y="-8" width="9" height="9" rx="2" fill="#B07219" />
-        <text x="15" y="0" class="small">Java</text>
-        <text x="132" y="0" class="smallValue">9.63%</text>
-      </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240">
+  <rect width="480" height="240" rx="14" fill="#282a36"/>
+  <text x="240" y="24" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="13" font-weight="bold" fill="#f8f8f2">📊 Most Used Languages</text>
+  <path d="M 120.00 34.00 A 88 88 0 0 1 201.74 89.41 L 170.16 102.00 A 54 54 0 0 0 120.00 68.00 Z" fill="#ff79c6" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 201.74 89.41 A 88 88 0 0 1 181.01 185.42 L 157.44 160.92 A 54 54 0 0 0 170.16 102.00 Z" fill="#bd93f9" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 181.01 185.42 A 88 88 0 0 1 96.57 206.82 L 105.62 174.05 A 54 54 0 0 0 157.44 160.92 Z" fill="#f1fa8c" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 96.57 206.82 A 88 88 0 0 1 38.16 154.33 L 69.78 141.84 A 54 54 0 0 0 105.62 174.05 Z" fill="#8be9fd" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 38.16 154.33 A 88 88 0 0 1 35.30 98.14 L 68.02 107.36 A 54 54 0 0 0 69.78 141.84 Z" fill="#ffb86c" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 35.30 98.14 A 88 88 0 0 1 64.40 53.79 L 85.88 80.15 A 54 54 0 0 0 68.02 107.36 Z" fill="#50fa7b" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 64.40 53.79 A 88 88 0 0 1 84.22 41.60 L 98.04 72.67 A 54 54 0 0 0 85.88 80.15 Z" fill="#ff5555" stroke="#282a36" stroke-width="2.5"/>
+  <path d="M 84.22 41.60 A 88 88 0 0 1 120.00 34.00 L 120.00 68.00 A 54 54 0 0 0 98.04 72.67 Z" fill="#6272a4" stroke="#282a36" stroke-width="2.5"/>
+  <text x="120" y="117" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="10" fill="#f8f8f2">Top</text>
+  <text x="120" y="131" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="10" fill="#f8f8f2">Langs</text>
+  <rect x="232" y="38" width="12" height="12" rx="3" fill="#ff79c6"/>
+  <text x="251" y="48" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">C#</text>
+  <text x="464" y="48" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">19.0%</text>
+  <rect x="232" y="62" width="12" height="12" rx="3" fill="#bd93f9"/>
+  <text x="251" y="72" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">PHP</text>
+  <text x="464" y="72" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">18.8%</text>
+  <rect x="232" y="86" width="12" height="12" rx="3" fill="#f1fa8c"/>
+  <text x="251" y="96" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">JavaScript</text>
+  <text x="464" y="96" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">16.5%</text>
+  <rect x="232" y="110" width="12" height="12" rx="3" fill="#8be9fd"/>
+  <text x="251" y="120" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">HTML</text>
+  <text x="464" y="120" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">14.7%</text>
+  <rect x="232" y="134" width="12" height="12" rx="3" fill="#ffb86c"/>
+  <text x="251" y="144" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">CSS</text>
+  <text x="464" y="144" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">10.4%</text>
+  <rect x="232" y="158" width="12" height="12" rx="3" fill="#50fa7b"/>
+  <text x="251" y="168" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">Java</text>
+  <text x="464" y="168" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">9.7%</text>
+  <rect x="232" y="182" width="12" height="12" rx="3" fill="#ff5555"/>
+  <text x="251" y="192" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">TypeScript</text>
+  <text x="464" y="192" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">4.2%</text>
+  <rect x="232" y="206" width="12" height="12" rx="3" fill="#6272a4"/>
+  <text x="251" y="216" font-family="Segoe UI,sans-serif" font-size="12" fill="#f8f8f2">Others</text>
+  <text x="464" y="216" text-anchor="end" font-family="Segoe UI,sans-serif" font-size="12" font-weight="bold" fill="#f8f8f2">6.7%</text>
 </svg>
