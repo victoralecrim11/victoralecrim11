@@ -115,30 +115,41 @@ function summarizeLanguages(totals) {
 }
 
 function renderSvg({ rows, repoCount, totalBytes }) {
-  const width = 780;
-  const height = 390;
-  const cx = 210;
-  const cy = 218;
-  const outerRadius = 118;
-  const innerRadius = 68;
+  const width = 700;
+  const height = 340;
+  const topRows = rows.slice(0, 5);
 
-  let angle = 0;
-  const segments = rows.map((row) => {
-    const startAngle = angle;
-    const endAngle = angle + (row.percent / 100) * 360;
-    angle = endAngle;
-    return `<path d="${donutSegmentPath(cx, cy, outerRadius, innerRadius, startAngle, endAngle)}" fill="${row.color}" stroke="#0d1117" stroke-width="3" />`;
-  }).join("\n    ");
+  function donut(cx, cy, outerRadius, innerRadius, sourceRows) {
+    let angle = 0;
+    return sourceRows.map((row) => {
+      const startAngle = angle;
+      const endAngle = angle + (row.percent / 100) * 360;
+      angle = endAngle;
+      return `<path d="${donutSegmentPath(cx, cy, outerRadius, innerRadius, startAngle, endAngle)}" fill="${row.color}" stroke="#fff6df" stroke-width="3" />`;
+    }).join("\n      ");
+  }
 
-  const legend = rows
+  const legend = topRows
     .map((row, index) => {
-      const y = 126 + index * 31;
+      const y = 238 + index * 17;
       return `
-    <g transform="translate(440, ${y})">
-      <circle cx="0" cy="-4" r="5" fill="${row.color}" />
-      <text x="18" y="0" class="legend">${escapeXml(row.name)}</text>
-      <text x="190" y="0" class="value">${row.percent.toFixed(2)}%</text>
-    </g>`;
+      <g transform="translate(82, ${y})">
+        <rect x="0" y="-8" width="9" height="9" rx="2" fill="${row.color}" />
+        <text x="15" y="0" class="small">${escapeXml(row.name)}</text>
+        <text x="132" y="0" class="smallValue">${row.percent.toFixed(2)}%</text>
+      </g>`;
+    })
+    .join("");
+
+  const secondLegend = topRows
+    .map((row, index) => {
+      const y = 238 + index * 17;
+      return `
+      <g transform="translate(393, ${y})">
+        <rect x="0" y="-8" width="9" height="9" rx="2" fill="${row.color}" />
+        <text x="15" y="0" class="small">${escapeXml(row.name)}</text>
+        <text x="132" y="0" class="smallValue">${row.percent.toFixed(2)}%</text>
+      </g>`;
     })
     .join("");
 
@@ -146,35 +157,51 @@ function renderSvg({ rows, repoCount, totalBytes }) {
   <title id="title">Linguagens mais usadas por Victor Alecrim</title>
   <desc id="desc">Linguagens mais usadas por Victor Alecrim.</desc>
   <defs>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#010409" flood-opacity="0.45" />
-    </filter>
-    <radialGradient id="centerGlow" cx="50%" cy="45%" r="55%">
-      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.28" />
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
-    </radialGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#88a51e" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#88a51e" stop-opacity="0.18" />
+    </linearGradient>
   </defs>
   <style>
-    .card { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
-    .panel { fill: #161b22; stroke: #30363d; stroke-width: 1; }
-    .title { fill: #58a6ff; font: 800 28px Segoe UI, Ubuntu, Arial, sans-serif; }
-    .legend { fill: #c9d1d9; font: 600 14px Segoe UI, Ubuntu, Arial, sans-serif; }
-    .value { fill: #f0f6fc; font: 700 14px Segoe UI, Ubuntu, Arial, sans-serif; text-anchor: end; }
-    .centerPercent { fill: #f0f6fc; font: 800 28px Segoe UI, Ubuntu, Arial, sans-serif; text-anchor: middle; }
-    .centerLabel { fill: #8b949e; font: 700 13px Segoe UI, Ubuntu, Arial, sans-serif; text-anchor: middle; }
+    .bg { fill: #fff9e8; }
+    .card { fill: #fff3d7; stroke: #f0dfb5; stroke-width: 1; }
+    .title { fill: #2483ff; font: 700 18px Segoe UI, Ubuntu, Arial, sans-serif; }
+    .name { fill: #2483ff; font: 700 18px Segoe UI, Ubuntu, Arial, sans-serif; }
+    .text { fill: #7d6a3a; font: 600 13px Segoe UI, Ubuntu, Arial, sans-serif; }
+    .small { fill: #7d6a3a; font: 600 10px Segoe UI, Ubuntu, Arial, sans-serif; }
+    .smallValue { fill: #3b3320; font: 700 10px Segoe UI, Ubuntu, Arial, sans-serif; text-anchor: end; }
+    .axis { fill: #a28c56; font: 500 9px Segoe UI, Ubuntu, Arial, sans-serif; }
   </style>
-  <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="14" class="card" />
-  <rect x="24" y="24" width="732" height="342" rx="12" class="panel" />
-  <text x="48" y="66" class="title">Most Used Languages</text>
+  <rect width="${width}" height="${height}" rx="16" class="bg" />
 
-  <g filter="url(#shadow)">
-    <circle cx="${cx}" cy="${cy}" r="${outerRadius + 10}" fill="url(#centerGlow)" />
-    ${segments}
-    <circle cx="${cx}" cy="${cy}" r="${innerRadius - 5}" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <rect x="32" y="24" width="636" height="132" rx="14" class="card" />
+  <text x="58" y="56" class="name">Victor Alecrim</text>
+  <text x="58" y="82" class="text">🎓 Ciência da Computação</text>
+  <text x="58" y="106" class="text">💻 Desenvolvimento full-stack</text>
+  <text x="58" y="130" class="text">🎯 Web, APIs e tecnologia</text>
+
+  <path d="M 326 129 L 326 117 C 352 101, 369 117, 388 106 C 414 92, 426 48, 452 72 C 471 89, 485 121, 505 91 C 525 61, 536 43, 555 72 C 570 95, 584 106, 606 69 C 624 41, 646 86, 646 129 Z" fill="url(#area)" />
+  <polyline points="326,117 352,104 369,117 388,106 414,92 426,48 452,72 471,89 485,121 505,91 525,61 536,43 555,72 570,95 584,106 606,69 624,41 646,86" fill="none" stroke="#88a51e" stroke-width="3" />
+  <line x1="326" y1="129" x2="646" y2="129" stroke="#d6c490" />
+  <text x="326" y="145" class="axis">2024</text>
+  <text x="473" y="145" class="axis">2025</text>
+  <text x="622" y="145" class="axis">2026</text>
+
+  <rect x="32" y="172" width="300" height="144" rx="14" class="card" />
+  <text x="58" y="202" class="title">Repos per Language</text>
+  <g transform="translate(242, 238)">
+      ${donut(0, 0, 42, 23, rows)}
+      <circle cx="0" cy="0" r="21" fill="#fff3d7" />
   </g>
-  <text x="${cx}" y="${cy - 6}" class="centerPercent">${rows[0]?.percent.toFixed(2) || "0.00"}%</text>
-  <text x="${cx}" y="${cy + 21}" class="centerLabel">${escapeXml(rows[0]?.name || "Sem dados")}</text>
 ${legend}
+
+  <rect x="368" y="172" width="300" height="144" rx="14" class="card" />
+  <text x="394" y="202" class="title">Most Used Languages</text>
+  <g transform="translate(554, 238)">
+      ${donut(0, 0, 42, 23, rows)}
+      <circle cx="0" cy="0" r="21" fill="#fff3d7" />
+  </g>
+${secondLegend}
 </svg>
 `;
 }
