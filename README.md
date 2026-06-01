@@ -41,25 +41,23 @@ Desenvolvedor em formação e estudante de Ciência da Computação (5º períod
 <div align="center">
   <table>
     <tr>
-      <td valign="top">
+      <td valign="top" width="55%">
         <img
           src="./assets/contrib-stats.svg"
           alt="Contribution activity chart"
-          width="440"
-          height="440"
+          width="520"
         />
       </td>
-      <td valign="top">
+      <td valign="top" width="45%">
         <img
           src="./assets/language-stats.svg"
           alt="Language statistics"
-          width="310"
+          width="340"
         />
       </td>
     </tr>
   </table>
 </div>
-
 
 ## 📫 Contato
 
