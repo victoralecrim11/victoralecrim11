@@ -1,0 +1,35 @@
+name: Update language stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "18 6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/scripts/generate-language-stats.mjs"
+      - ".github/workflows/update-language-stats.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-language-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate SVG
+        run: node .github/scripts/generate-language-stats.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: victoralecrim11
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update language stats"
+          file_pattern: assets/language-stats.svg

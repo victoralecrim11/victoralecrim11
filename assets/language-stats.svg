@@ -1,0 +1,93 @@
+<svg width="760" height="360" viewBox="0 0 760 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Linguagens mais usadas por Victor Alecrim</title>
+  <desc id="desc">Gráfico com porcentagens de linguagens calculadas a partir dos repositórios públicos.</desc>
+  <style>
+    .card { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+    .title { fill: #58a6ff; font: 700 24px Segoe UI, Ubuntu, Arial, sans-serif; }
+    .subtitle { fill: #8b949e; font: 500 13px Segoe UI, Ubuntu, Arial, sans-serif; }
+    .stat { fill: #f0f6fc; font: 700 20px Segoe UI, Ubuntu, Arial, sans-serif; }
+    .label { fill: #8b949e; font: 500 12px Segoe UI, Ubuntu, Arial, sans-serif; }
+    .legend { fill: #c9d1d9; font: 600 14px Segoe UI, Ubuntu, Arial, sans-serif; }
+    .value { fill: #f0f6fc; font: 700 14px Segoe UI, Ubuntu, Arial, sans-serif; text-anchor: end; }
+    .muted { fill: #8b949e; font: 500 12px Segoe UI, Ubuntu, Arial, sans-serif; }
+  </style>
+  <rect x="0.5" y="0.5" width="759" height="359" rx="10" class="card" />
+  <text x="42" y="52" class="title">Most Used Languages</text>
+  <text x="42" y="80" class="subtitle">Baseado em 47 repositórios públicos, sem Vercel API</text>
+
+  <g transform="translate(542, 42)">
+    <text x="0" y="0" class="label">Total analisado</text>
+    <text x="0" y="28" class="stat">17.1 MB</text>
+    <text x="0" y="54" class="label">Atualizado em 31/05/2026</text>
+  </g>
+
+  <clipPath id="barClip"><rect x="42" y="118" width="676" height="18" rx="9" /></clipPath>
+  <g clip-path="url(#barClip)">
+    <rect x="42" y="118" width="676" height="18" fill="#21262d" />
+    <rect x="42.00" y="118" width="584.36" height="18" fill="#3572A5" />
+    <rect x="626.36" y="118" width="17.82" height="18" fill="#F1E05A" />
+    <rect x="644.18" y="118" width="16.65" height="18" fill="#E34C26" />
+    <rect x="660.83" y="118" width="15.00" height="18" fill="#178600" />
+    <rect x="675.83" y="118" width="14.91" height="18" fill="#4F5D95" />
+    <rect x="690.74" y="118" width="11.79" height="18" fill="#663399" />
+    <rect x="702.53" y="118" width="7.71" height="18" fill="#B07219" />
+    <rect x="710.24" y="118" width="3.34" height="18" fill="#3178C6" />
+    <rect x="713.58" y="118" width="4.42" height="18" fill="#8B949E" />
+  </g>
+  <rect x="42" y="118" width="676" height="18" rx="9" stroke="#30363d" />
+
+  <g transform="translate(48, 176)">
+    <circle cx="0" cy="-4" r="5" fill="#3572A5" />
+    <text x="16" y="0" class="legend">Python</text>
+    <text x="202" y="0" class="value">86.45%</text>
+    <text x="270" y="0" class="muted">14.8 MB</text>
+  </g>
+  <g transform="translate(400, 176)">
+    <circle cx="0" cy="-4" r="5" fill="#F1E05A" />
+    <text x="16" y="0" class="legend">JavaScript</text>
+    <text x="202" y="0" class="value">2.64%</text>
+    <text x="270" y="0" class="muted">450.1 KB</text>
+  </g>
+  <g transform="translate(48, 210)">
+    <circle cx="0" cy="-4" r="5" fill="#E34C26" />
+    <text x="16" y="0" class="legend">HTML</text>
+    <text x="202" y="0" class="value">2.46%</text>
+    <text x="270" y="0" class="muted">420.5 KB</text>
+  </g>
+  <g transform="translate(400, 210)">
+    <circle cx="0" cy="-4" r="5" fill="#178600" />
+    <text x="16" y="0" class="legend">C#</text>
+    <text x="202" y="0" class="value">2.22%</text>
+    <text x="270" y="0" class="muted">378.9 KB</text>
+  </g>
+  <g transform="translate(48, 244)">
+    <circle cx="0" cy="-4" r="5" fill="#4F5D95" />
+    <text x="16" y="0" class="legend">PHP</text>
+    <text x="202" y="0" class="value">2.21%</text>
+    <text x="270" y="0" class="muted">376.6 KB</text>
+  </g>
+  <g transform="translate(400, 244)">
+    <circle cx="0" cy="-4" r="5" fill="#663399" />
+    <text x="16" y="0" class="legend">CSS</text>
+    <text x="202" y="0" class="value">1.74%</text>
+    <text x="270" y="0" class="muted">297.8 KB</text>
+  </g>
+  <g transform="translate(48, 278)">
+    <circle cx="0" cy="-4" r="5" fill="#B07219" />
+    <text x="16" y="0" class="legend">Java</text>
+    <text x="202" y="0" class="value">1.14%</text>
+    <text x="270" y="0" class="muted">194.8 KB</text>
+  </g>
+  <g transform="translate(400, 278)">
+    <circle cx="0" cy="-4" r="5" fill="#3178C6" />
+    <text x="16" y="0" class="legend">TypeScript</text>
+    <text x="202" y="0" class="value">0.49%</text>
+    <text x="270" y="0" class="muted">84.4 KB</text>
+  </g>
+  <g transform="translate(48, 312)">
+    <circle cx="0" cy="-4" r="5" fill="#8B949E" />
+    <text x="16" y="0" class="legend">Outras</text>
+    <text x="202" y="0" class="value">0.64%</text>
+    <text x="270" y="0" class="muted">109.8 KB</text>
+  </g>
+</svg>
