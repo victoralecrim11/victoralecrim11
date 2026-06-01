@@ -13,7 +13,6 @@
   <img width="780" alt="Gráfico de pizza com linguagens mais usadas por Victor Alecrim" src="./assets/language-stats.svg" />
 </div>
 
-> Gráfico gerado a partir dos repositórios públicos do perfil, excluindo forks e o próprio repositório de perfil. A atualização é feita por GitHub Actions, sem depender da API da Vercel.
 
 ---
 
