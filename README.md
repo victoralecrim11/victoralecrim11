@@ -8,7 +8,7 @@
 
 ## 👨‍💻 Sobre mim:
 
-Desenvolvedor em formação e estudante de Ciência da Computação (5º período), com interesse em desenvolvimento web, engenharia de software e arquitetura de sistemas. Busco constantemente aprimorar minhas habilidades técnicas e contribuir com soluções eficientes e de qualidade.
+Desenvolvedor em formação e estudante de Ciência da Computação, com experiência prática no desenvolvimento e evolução de aplicações web, APIs e soluções integradas. Atuo principalmente com C#/.NET, JavaScript/TypeScript, React, Next.js, PHP/Laravel e bancos de dados, além de explorar Inteligência Artificial, automação e desenvolvimento de ferramentas com agentes de IA. Tenho interesse em Engenharia de Software, Arquitetura de Sistemas, qualidade de código e desenvolvimento Full Stack, buscando criar soluções escaláveis, bem estruturadas e que resolvam problemas reais.
 
 ---
 
